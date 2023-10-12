@@ -26,6 +26,7 @@ function demo() {
       right(36);
    }
 }
+demo(5)
 demo(10)
 //
 
