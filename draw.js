@@ -26,8 +26,6 @@ function demo() {
    }
 }
 
-abc()
-demo(
 demo(10)
 
 
