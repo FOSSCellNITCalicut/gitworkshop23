@@ -39,7 +39,7 @@ demo()
 //BEGIN : Mohammed Ameen
 
 
-function growingCircle() {
+function shell() {
    hideTurtle();
    colour(255,0,255,1);
    // for(s = 100; s > 0; s -= 10) {
@@ -50,21 +50,20 @@ function growingCircle() {
 	w = 1;
 	o = 1;
 	f = 100;
-  setInterval(function() {
+	for(s = 0; s < 600; ++s){
 	   width(w); 
 	   goto(-200, -100);
 	   colour(100, 0, 0, o);
 	   forward(f);
-	   left(10);
+	   left(5);
 	   o -= 0.01;
 	   f -= 1;
 	   w += 0.5;
-  }, 300);
-	  
+  }
 
 }
 
-growingCircle();
+shell();
 
 //END : Mohammed Ameen
 
