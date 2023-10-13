@@ -26,10 +26,9 @@ function demo() {
    }
 }
 
-ab()
 demo()
 demo(10)
-demo(
+demo()
 
 
 
