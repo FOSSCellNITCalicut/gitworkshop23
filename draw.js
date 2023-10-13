@@ -26,7 +26,9 @@ function demo() {
    }
 }
 
+demo()
 demo(10)
+demo()
 
 
 
