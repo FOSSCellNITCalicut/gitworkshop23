@@ -29,7 +29,8 @@ function demo() {
 demo(5)
 demo(10)
 demo(15)
-//
+// added end comments
+forward(10)
 
 
 
