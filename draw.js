@@ -17,19 +17,6 @@ function square(side) {
    });
 }
 
-function demo() {
-   hideTurtle();
-   colour(0,0,255,1);
-   for(s = 100; s > 0; s -= 10) {
-      square(s);
-      right(36);
-   }
-}
-
-demo()
-demo(10)
-demo()
-demo(15)
 
 
 
