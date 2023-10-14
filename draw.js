@@ -69,3 +69,42 @@ shell();
 
 
 
+//BEGIN: Vivek
+function colorfulPattern() {
+   const canvas = document.getElementById('myCanvas'); // Get a reference to an HTML5 Canvas element
+   const ctx = canvas.getContext('2d'); // Create a 2D drawing context
+ 
+   let x = canvas.width / 2;
+   let y = canvas.height / 2;
+   let radius = 100;
+   let angle = 0;
+   let hue = 0;
+ 
+   function drawCircle() {
+     ctx.beginPath();
+     ctx.arc(x, y, radius, 0, Math.PI * 2, false);
+     ctx.fillStyle = `hsl(${hue}, 80%, 50%)`; // Use HSL color for variety
+     ctx.fill();
+     ctx.closePath();
+   }
+ 
+   function updateParams() {
+     radius -= 1;
+     angle += 5;
+     hue = (hue + 5) % 360;
+   }
+ 
+   function animate() {
+     if (radius > 0) {
+       drawCircle();
+       updateParams();
+       requestAnimationFrame(animate);
+     }
+   }
+ 
+   animate();
+ }
+ 
+ colorfulPattern();
+
+ //END: Vivek
