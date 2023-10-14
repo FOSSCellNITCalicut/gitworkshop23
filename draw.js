@@ -22,3 +22,8 @@ function square(side) {
 
 // 
 
+// BEgin: Madhav
+square(100)
+goto(100,100)
+square(100)
+// End : madhav
