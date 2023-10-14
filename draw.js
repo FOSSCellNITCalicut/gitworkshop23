@@ -36,7 +36,7 @@ demo()
 
 // 
 
-//BEGIN : Mohammed Ameen
+//BEGIN : Joel John
 
 
 function shell() {
@@ -59,13 +59,14 @@ function shell() {
 	   o -= 0.01;
 	   f -= 1;
 	   w += 0.5;
-  }
+   }
+   //code running
 
 }
 
 shell();
 
-//END : Mohammed Ameen
+//END : Joel John
 
 
 
