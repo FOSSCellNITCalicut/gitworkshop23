@@ -43,3 +43,13 @@ right(180)
 forward(160)
 hideTurtle()
 //End: Joshua
+
+//Begin: Kishandev
+penup()
+forward(10)
+right(90)
+pendown()
+left(90)
+forward(10)
+left(90)
+forward(10)
