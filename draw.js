@@ -65,3 +65,18 @@ forward(50)
 left(90)
 forward(50)
 left(90)
+
+//End: Kishandev
+
+//Begin: aksbombsrs
+penup()
+forward(60)
+pendown()
+left(90)
+forward(60)
+left(90)
+backward(60)
+right(60)
+forward(60)
+left(90)
+
